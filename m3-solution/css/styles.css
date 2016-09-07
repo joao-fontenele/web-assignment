@@ -1,0 +1,39 @@
+#header-nav {
+	background-color: gray;
+	min-height: 130px;
+	border: 2px solid black;
+	border-radius: 0;
+}
+.navbar-header {
+
+}
+.navbar-brand h1 {
+	color: black;
+}
+.navbar-header button {
+	vertical-align: middle;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#collapsable-nav {
+	margin-top: 80px;
+	background-color: lightblue;
+}
+#collapsable-nav hr {
+	margin: 0;
+}
+#main-content .container {
+	min-height: 1000px;
+}
+#main-content .row {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: lightgreen;
+}
+
+@media (min-width: 768px) {
+	#collapsable-nav * {
+		display: none;
+	}
+}
